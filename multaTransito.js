@@ -5,7 +5,7 @@ const nomeMotorista = prompt("Digite o nome do motorista: ");
 const velocidadeVia = Number(prompt("Velocidade da via (Km/h): "));
 const velocidadeMotorista = Number(prompt ("Velocidade do motorista (Km/h): "));
 
-console.log("-----------------------------------------");
+console.log("-".repeat(40));
 
 //VALIDAÇÃO DE DADOS
 const dadosValidos = !isNaN(velocidadeVia) && !isNaN(velocidadeMotorista);
